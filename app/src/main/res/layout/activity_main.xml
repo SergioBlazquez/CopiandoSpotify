@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+
+        android:layout_weight="0.4"
+        android:background="#000000"
+
+
+        >
+
+
+
+
+    </TableRow>
+
+    <TableRow
+
+
+        android:layout_weight="1"
+        android:background="#338DFF"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+
+
+
+
+        >
+<LinearLayout
+
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_column="1"
+
+
+
+
+    >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:layout_marginLeft="5dp"
+
+            android:padding="5dp"
+
+
+
+
+            android:text="Consigue Premium"
+            android:textColor="#FFFFFF"
+
+
+
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gratis 1 mes"
+            android:textSize="40sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#FFFFFF"
+
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Después, solo 9,99€/mes."
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#FFFFFF"
+
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelas cuando quieras."
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#FFFFFF"
+
+            />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#59EA3C"
+        android:text="@string/boton_miniejercicio2"
+        android:textColor="#FFFFFF"
+
+
+
+         />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rigen termios y condiciones. El mes gratis no esta"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="disponible para usuarios que ya hayan probado premium"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+
+</LinearLayout>
+
+
+
+
+    </TableRow>
+
+    <TableRow
+
+        android:layout_weight="0.9"
+        android:background="#A64CF6"
+        >
+
+
+        <LinearLayout
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_column="1"
+
+
+
+
+
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+
+
+                android:text="Prueba gratuita de"
+                android:textColor="#FFFFFF"
+
+
+
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 meses de Premium para"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estudiantes"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Después, 4,99€/mes. Disfruta de la"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+
+                />
+
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="musica si conexión ni anuncios."
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+    </TableRow>
+
+
+</TableLayout>
